@@ -21,7 +21,7 @@ pyautogui.click(assunto)
 pyautogui.write("Codigo.py")
 
 pyautogui.click(x=1262, y=577)
-pyautogui.write("Codigo de automação bem sucedido!")
+pyautogui.write("Codigo de automacao bem sucedido!")
 
 enviar = pyautogui.locateCenterOnScreen("imagens/enviar.png")
 pyautogui.click(enviar)
